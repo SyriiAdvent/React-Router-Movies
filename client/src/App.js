@@ -17,10 +17,11 @@ const App = () => {
       <div>
 
       </div>
+      
       <Route exact path="/">
         <MovieList />
       </Route>
-      {/* <Route path="/MovieList" /> */}
+
       <Route path="/movies/:movieID">
         <Movie />
       </Route>
