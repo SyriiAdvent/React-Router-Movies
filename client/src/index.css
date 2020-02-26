@@ -3,9 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: #f2f2f2;
+  text-decoration: none;
 }
 
 .movie-card {
+  width: 95%;
   background-color: #fff;
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
@@ -14,11 +16,18 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  text-decoration: none;
+  text-align: center;
+}
+
+.movie-card a {
+  text-decoration: none;
 }
 
 .movie-director {
   padding: 4px 0;
   font-size: 0.8rem;
+  text-decoration: none;
 }
 
 .saved-list {
@@ -34,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 
 .saved-list h3 {
